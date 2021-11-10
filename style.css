@@ -25,6 +25,9 @@ a {
     top: 60px;
     left: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .background-img {
@@ -53,6 +56,7 @@ a {
     letter-spacing: 1px;
     color: rgb(13, 26, 38);
     margin: 0;
+    text-align: center;
 }
 
 .gallery-btn {
@@ -74,12 +78,37 @@ a {
     border-color: #04c2c9;
 }
 
+.page-wrapper {
+  width: 60%;
+  overflow: none;
+}
+
+.page-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.spacer {
+  width: 100%;
+  height: 20%;
+}
+
+.contact-btn {
+  width: 100% !important;
+  background-color: transparent !important;
+}
+
+.contact-btn:hover {
+  background-color: thistle !important;
+}
+
 /*======================================================
                           Navbar
   ======================================================*/
 
   .Navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: white;
